@@ -1,0 +1,26 @@
+{
+  "n_links": 120,
+  "tp": 30,
+  "fp": 0,
+  "fn": 0,
+  "tn": 90,
+  "precision": 1.0,
+  "recall": 1.0,
+  "max_extracted_color_error_levels": 0.0,
+  "tau": 5.0,
+  "seed": 0,
+  "per_variant": {
+    "hex": {
+      "correct": 40,
+      "total": 40
+    },
+    "css_var": {
+      "correct": 40,
+      "total": 40
+    },
+    "srgb_fn": {
+      "correct": 40,
+      "total": 40
+    }
+  }
+}

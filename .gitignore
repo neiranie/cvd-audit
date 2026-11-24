@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/raw/
+data/processed/*.html
+data/processed/texts.csv
+.env
+*.key
+*.pem
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp

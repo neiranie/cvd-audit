@@ -1,0 +1,23 @@
+# Fill CONTACT_EMAIL. Public pages only (no login, no transactions).
+[crawl]
+user_agent = "CVDAuditAcademicBot/0.1 (academic research, Universitas Muhammadiyah Yogyakarta; contact: CONTACT_EMAIL)"
+delay_seconds = 8
+settle_ms = 4000
+respect_robots = true
+viewport_width = 1366
+viewport_height = 768
+
+# Case-study platform chosen BEFORE seeing results: highest visits per the
+# Databoks Jan-Sep 2026 series (verify the source before citing).
+# Replace TODO urls with real public pages: several per page type.
+[[sites]]
+name = "shopee"
+dismiss_texts = ["Oke", "OK", "Okay"]
+pages = [
+  { type = "home",    url = "https://shopee.co.id/" },
+  { type = "listing", url = "TODO: public search/category page" },
+  { type = "listing", url = "TODO: another category page" },
+  { type = "product", url = "TODO: public product page" },
+  { type = "product", url = "TODO: another product page" },
+  { type = "cart",    url = "TODO: only if reachable without login" },
+]
